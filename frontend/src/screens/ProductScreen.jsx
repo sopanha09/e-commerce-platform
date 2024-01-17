@@ -1,10 +1,10 @@
-// import products from "../products";
 import { Link } from "react-router-dom";
 import { Row, Col, Image, ListGroup, Card, Button } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import Rating from "../components/Rating";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Product from "../components/Product";
 
 const ProductScreen = () => {
   const { id: productId } = useParams();
